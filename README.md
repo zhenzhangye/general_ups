@@ -4,7 +4,8 @@ This code implements the following [paper](https://vision.in.tum.de/_media/spezi
 > **Variational Uncalibrated Photometric Stereo under General Lighting**
 > *Haefner, B., Ye, Z., Gao, M., Wu, T., Quéau, Y. and Cremers, D.; In International Conference on Computer Vision (ICCV), 2019.*
 ![alt tag](https://vision.in.tum.de/_media/spezial/bib/haefner2019.png)
-we propose an efficient principled variational approach to uncalibrated PS under general illumination. To this end, the Lambertian reflectance model is approximated through a spherical harmonic expansion, which preserves the spatial invariance of the lighting. The joint recovery of shape, reflectance and illumination is then formulated as a single variational problem.
+
+We propose an efficient principled variational approach to uncalibrated PS under general illumination. To this end, the Lambertian reflectance model is approximated through a spherical harmonic expansion, which preserves the spatial invariance of the lighting. The joint recovery of shape, reflectance and illumination is then formulated as a single variational problem.
 
 ## 1. Requirements
 
