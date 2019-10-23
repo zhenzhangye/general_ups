@@ -1,4 +1,4 @@
-fjjjjjnction [z_est, albedo_est, lighting_est, energy] = naturalUPS(I, K, mask, params, options, z_init_persp)
+function [z_est, albedo_est, lighting_est, energy] = naturalUPS(I, K, mask, params, options, z_init_persp)
 if ~isa(I, 'double')
   I = im2double(I); %I in range [0,1] now.
 end
