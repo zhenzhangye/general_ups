@@ -71,9 +71,9 @@ options.LinS.maxit              = 3;                 % the maximum number of inn
 options.LinS.t                  = 1e1;               % the initial step size for line search
 options.LinS.maxit_linesearch   = 1000;              % the maximum number of line search
   
-%% run naturalUPS
+%% run generalUPS
 tic;
-[z_est, albedo_est, l_est, energy] = naturalUPS(I, K, mask, params, options);
+[z_est, albedo_est, l_est, energy] = generalUPS(I, K, mask, params, options);
 toc;
   
 %% visualization
