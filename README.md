@@ -25,7 +25,7 @@ Clone these two repositories into the speicified folder in the `third_party` dir
 
 - Clone this repository.
 - If you do not have your own initialization/normal integration, change directory to `third_party` and clone [minimal_surface](https://github.com/zhenzhangye/minimal_surface) and [normal_integration](https://github.com/zhenzhangye/orthonormal_to_perspective).
-- Follow the instructions in [minimal_surface](https://github.com/zhenzhangye/minimal_surface) to build the MEX file.
+- Follow the [2.Getting Started](https://github.com/zhenzhangye/minimal_surface#2-getting-started) in [minimal_surface](https://github.com/zhenzhangye/minimal_surface) to build the MEX file.
 - Go back to root folder and run `main.m`.
 
 ## 3. Input
