@@ -21,13 +21,20 @@ The [minimal_surface](https://github.com/zhenzhangye/minimal_surface) generates 
 
 Clone these two repositories into the speicified folder in the `third_party` directory and build them. Neither are necessary if you have your own depth initialization.
 
-## 2. Input
+## 2. Usage
+
+- Clone this repository.
+- If you do not have your own initialization/normal integration, change directory to `third_party` and clone [minimal_surface](https://github.com/zhenzhangye/minimal_surface) and [normal_integration](https://github.com/zhenzhangye/orthonormal_to_perspective).
+- Follow the [2.Getting Started](https://github.com/zhenzhangye/minimal_surface#2-getting-started) in [minimal_surface](https://github.com/zhenzhangye/minimal_surface) to build the MEX file.
+- Go back to root folder and run `main.m`.
+
+## 3. Input
 
 - A set of `N` images `I`: `H`x`W`x`C`x`N`.
 - The 3x3 intrinsic paramter matrix `K` of the image size.
 - A binary `mask` describing the object of interest in the image.
 
-## 3. Parameters
+## 4. Parameters
 Please refer to the equation (23) in above [paper](https://vision.in.tum.de/_media/spezial/bib/haefner2019.pdf) for more details.
 ```
 params.lambda
@@ -47,7 +54,7 @@ params.beta_init
     Default: 5e-4
 ```
 
-## 4. Options
+## 5. Options
 * Options for whole algorithm
 ```
     options.ratio
@@ -149,10 +156,10 @@ params.beta_init
         the maximum number of line search
         Default: 1000
 ```
-## 5. Dataset
+## 6. Dataset
 We provide the `xtion_backpack_sf4_ups` as an example. For more datasets, please download [here](https://vision.in.tum.de/data/datasets/photometricdepthsr).
 
-## 6. License
+## 7. License
 general_ups is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, see [here](http://creativecommons.org/licenses/by-nc-sa/4.0/), with an additional request:
 
 If you make use of the library in any form in a scientific publication, please refer to `https://github.com/zhenzhangye/general_ups` and cite the paper
