@@ -13,11 +13,11 @@ This code has following dependencies:
 
 0) MATLAB (code was tested on R2019a)
 
-1) [minimal_surface](https://github.com/zhenzhangye/minimal_surface)(optional)
+1) [minimal_surface](https://github.com/zhenzhangye/minimal_surface)(necessary, unless you have your own depth initialization)
 
-2) [normal_integration](https://github.com/yqueau/normal_integration)(optional)
+2) [normal_integration](https://github.com/zhenzhangye/orthonormal_to_perspective)(necessary, unless you have your own normal integration)
 
-The [minimal_surface](https://github.com/zhenzhangye/minimal_surface) generates the balloon-like depth initialization under orthographic projection. The [normal_integration](https://github.com/yqueau/normal_integration) converts a dpeth map from orthographic to perspective. 
+The [minimal_surface](https://github.com/zhenzhangye/minimal_surface) generates the balloon-like depth initialization under orthographic projection. The [normal_integration](https://github.com/zhenzhangye/orthonormal_to_perspective) converts a dpeth map from orthographic to perspective. 
 
 Clone these two repositories into the speicified folder in the `third_party` directory and build them. Neither are necessary if you have your own depth initialization.
 
