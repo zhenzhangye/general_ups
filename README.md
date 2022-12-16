@@ -7,6 +7,9 @@ This code implements the following [paper](https://vision.in.tum.de/_media/spezi
 
 We propose an efficient principled variational approach to uncalibrated PS under general illumination. To this end, the Lambertian reflectance model is approximated through a spherical harmonic expansion, which preserves the spatial invariance of the lighting. The joint recovery of shape, reflectance and illumination is then formulated as a single variational problem.
 
+## 0. Python version
+Python version is available [here](https://github.com/BjoernHaefner/general_ups_python)
+
 ## 1. Requirements
 
 This code has following dependencies:
