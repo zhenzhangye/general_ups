@@ -3,7 +3,7 @@ This code implements the following [paper](https://vision.in.tum.de/_media/spezi
 
 > **Variational Uncalibrated Photometric Stereo under General Lighting**
 > *Haefner, B., Ye, Z., Gao, M., Wu, T., Quéau, Y. and Cremers, D.; In International Conference on Computer Vision (ICCV), 2019.*
-![alt tag](https://vision.in.tum.de/_media/spezial/bib/haefner2019.png)
+![alt tag](https://vision.in.tum.de/_media/spezial/bib/haefner2019iccv.png)
 
 We propose an efficient principled variational approach to uncalibrated PS under general illumination. To this end, the Lambertian reflectance model is approximated through a spherical harmonic expansion, which preserves the spatial invariance of the lighting. The joint recovery of shape, reflectance and illumination is then formulated as a single variational problem.
 
@@ -165,10 +165,11 @@ general_ups is licensed under a Creative Commons Attribution-NonCommercial-Share
 If you make use of the library in any form in a scientific publication, please refer to `https://github.com/zhenzhangye/general_ups` and cite the paper
 
 ```
-@article{haefner2019variational,
-  title={Variational Uncalibrated Photometric Stereo under General Lighting},
-  author={Haefner, Bjoern and Ye, Zhenzhang and Gao, Maolin and Wu, Tao and Qu{\'e}au, Yvain and Cremers, Daniel},
-  journal={arXiv preprint arXiv:1904.03942},
-  year={2019}
+@inproceedings{haefner2019variational,
+ title = {Variational Uncalibrated Photometric Stereo under General Lighting},
+ author = {Bjoern Haefner and Zhenzhang Ye and Maolin Gao and Tao Wu and Yvain Quéau and Daniel Cremers},
+ booktitle = {IEEE/CVF International Conference on Computer Vision (ICCV)},
+ year = {2019},
+ doi = {10.1109/ICCV.2019.00863},
 }
 ```
